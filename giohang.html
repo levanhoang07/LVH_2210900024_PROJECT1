@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Giỏ hàng</title>
+  <link rel="stylesheet" href="css/giohang.css">
+</head>
+<body>
+  <header>
+    <h1>Lê Văn Hoàng - Thời Trang Hiện Đại - Giỏ Hàng</h1>
+  </header>
+  <div class="cart">
+    <div class="cart-item">
+        <img src="anh/hoang1.JPG" alt="Product 1" class="product-image">
+        <div class="product-info">
+          <h3>Áo thun</h3>
+          <p>Giá: 200,000 VND</p>
+          <label for="size">Kích cỡ:</label>
+          <select id="size" name="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+          <label for="quantity">Số lượng:</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1">
+        </div>
+        <button class="update-button">Cập nhật</button>
+        <button class="remove-button">Xóa</button>
+      </div>
+      <div class="cart-item">
+        <img src="anh/hoang1.JPG" alt="Product 1" class="product-image">
+        <div class="product-info">
+          <h3>Áo thun</h3>
+          <p>Giá: 200,000 VND</p>
+          <label for="size">Kích cỡ:</label>
+          <select id="size" name="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+          <label for="quantity">Số lượng:</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1">
+        </div>
+        <button class="update-button">Cập nhật</button>
+        <button class="remove-button">Xóa</button>
+      </div>
+      <div class="cart-total">
+        <h2>Tổng tiền: <span class="total-price">400,000</span> VND</h2>
+        <button class="checkout-button">Thanh toán</button>
+      </div>
+  </div>
+</body>
+</html>
