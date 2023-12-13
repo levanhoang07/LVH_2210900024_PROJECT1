@@ -52,7 +52,7 @@ footer {
 }
 header .search{
   flex:3;
-  border:1rem blue;
+  border:1rem rgb(237, 237, 237);
 } 
 aside{
   flex: 1;
