@@ -25,12 +25,11 @@
         <form name="frm_lvh" method="post" action="">
             <table border="1" width="100%" cellspacing="5" cellpadding="5">
                 <tbody>
-                    <tr>
+                <tr>
                         <td>Mã</td>
                         <td>
-                            <input type="text" name="MA_LVH" id="MA_LVH" readonly value="<?php echo $row_edit_lvh["MA_LVH"]; ?>">
+                            <input type="text" name="MA_LVH" id="MA_LVH" readonly value="<?php echo htmlspecialchars($row_edit_lvh["MA_LVH"]); ?>">
                         </td>
-                    </tr>
                     <tr>
                         <td>Tên</td>
                         <td>

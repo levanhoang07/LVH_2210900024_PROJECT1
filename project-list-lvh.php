@@ -54,6 +54,9 @@
                         <a href="project-list-lvh.php?ma_lvh=<?php echo $row_lvh["MA_LVH"]; ?>" 
                             onclick="if (confirm('Bạn có muốn xóa không')) {return true;}else{return fals;}">
                             Xóa</a>
+                        <a href="project-create-lvh.php?ma_lvh=<?php echo $row_lvh["MA_LVH"]; ?>">
+                            Thêm
+                        </a>
 
                     </td>
                 </tr>
